@@ -1,0 +1,51 @@
+.logo img{
+  height: 100px;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+
+.logo img:hover{
+ transform: scale(1.2, 1.2);
+}
+
+.no-gutter{
+  padding-left: 0px;
+}
+
+.navi{
+margin-top: 20px;
+}
+
+
+.navi li{
+  font-family: 'Open Sans Condensed';
+  list-style: none;
+  font-weight: medium;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 50px;
+  background: ;
+  border-right: 3px solid lightgrey;
+  padding-bottom: 10px;
+  color: white;
+  opacity: 0.6;
+  padding-right: 20px;
+  transition: all 0.3s ease-out;
+
+
+
+}
+
+
+.navi li:hover{
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 46%,rgba(255,255,255,0.25) 100%);
+  border-right: 3px solid white;
+  opacity: 1.0;
+  padding-left: 3px;
+}
+
+.navi li:focus{
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 46%,rgba(255,255,255,0.25) 100%);
+
+}
+
